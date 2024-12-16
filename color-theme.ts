@@ -1,0 +1,33 @@
+import { vars } from "nativewind";
+export const themes = {
+  light: vars({
+    "--color-primary-default": "#3a5e96",
+    "--color-primary-light": "#5bd1e7",
+    "--color-secondary-default": "#9b6cca",
+    "--color-secondary-light": "#dfbeff",
+    "--color-tertiary-default": "#ff88bd",
+    "--color-tertiary-light": "#ffc2e6",
+    "--color-accent-default": "#f9c04a",
+    "--color-accent-light": "#ffeea9",
+    "--color-grey-default": "#979797",
+    "--color-slate-default": "#38383a",
+    "--color-dark-default": "#1f355b",
+    "--color-light-default": "#FCFDFD",
+    "--color-overlay": "rgba(0, 0, 0, .05)",
+  }),
+  dark: vars({
+    "--color-primary-default": "#8ab4ff",
+    "--color-primary-light": "#a3e8ff",
+    "--color-secondary-default": "#d6afff",
+    "--color-secondary-light": "#f3d9ff",
+    "--color-tertiary-default": "#ffacd2",
+    "--color-tertiary-light": "#ffd1e8",
+    "--color-accent-default": "#ffde8a",
+    "--color-accent-light": "#fff6d5",
+    "--color-grey-default": "#b0b0b0",
+    "--color-slate-default": "#c4c4c4",
+    "--color-dark-default": "#0d1a2e",
+    "--color-light-default": "#1e1e1e",
+    "--color-overlay": "rgba(255, 255, 255, .1)",
+  }),
+};
